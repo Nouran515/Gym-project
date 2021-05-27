@@ -1,0 +1,182 @@
+body
+{
+font-family: Arial,sans-serif;
+padding:10px;
+color:#161415;
+}
+
+.container
+{
+    width:100%;
+    margin:auto;
+    overflow:hidden
+}
+ul{
+    margin:0;
+    padding:0;
+}
+header
+{
+    background:#353434fb;
+    color:#ffffff;
+    padding-top:30x;
+    min-height:70px;
+    border-bottom:#32a0c2 5PX solid;
+  } 
+header a 
+{
+    color:#ffffff;
+    text-decoration: none ;
+    font-size: 19px;
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+header #brand {
+    float:left;
+}
+header #brand h1
+{margin:0;
+color:#32a0c2;
+}
+header nav
+{
+float: left; 
+margin-top:10px;
+}
+header.current a
+{color:#32a0c2;
+font-weight:bold
+}
+header a:hover
+{color:#92ccf3;
+font-weight:bold;
+}
+#showcase
+{min-height:300px;
+background: url("../images/GYM.jpg ")  no-repeat center;
+background-size:cover;
+}
+#newsletter
+{
+    padding:15px;
+    Color: #ffffff;
+    background:#a9bac4d7;
+}
+
+#newsletter  h1
+{
+    float:left;
+
+
+}
+#newsletter form
+{
+    float:right;
+    margin-top:15px;
+
+}
+#newsletter input[type="email"]
+{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+.button
+{
+    height: 38px;
+    padding-left:20px;
+    padding-right: 20px;
+    color:rgb(233, 12, 85);
+    overflow: hidden;
+
+
+}
+#About
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    color:rgb(199, 81, 81)
+}
+
+.About-content
+{
+
+    padding-top: 5px;
+    margin-bottom:20px ;
+    color: blue;
+}
+#About .h2
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color:#c23239 ; 
+}
+#services
+{padding-top:20px;
+    padding-bottom:20px;
+    color:rgb(199, 81, 81)
+}
+#services .h2
+{
+    text-align: center;
+    color: #cf2828 !important;
+    padding-bottom: 10px;
+}
+.services-content
+{padding-top: 5px;
+    margin-bottom:20px ;
+    color: blue;}
+    #contact us
+    {background : efefef;
+        padding-top: 40px;
+        padding-bottom: 40 px;
+        color: #777;
+
+
+    }
+    
+
+
+#boxes  .box
+{  float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+     margin-top: 10px;      }
+footer{
+    padding: 20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color: rgba(3, 34, 172, 0.842);
+    text-align:center;
+    font-weight:bold;
+    Font-size: 25px;}
+    
+    @media(max-width:768px)
+    {
+        header #brand,
+        header nav,
+        header nav li,
+        #newsletter form,
+        #boxes  .box
+        {
+            float: none;
+            text-align:center;
+            width:100%;
+        }
+        header {
+            padding-bottom:20px
+        }
+        #newsletter.button
+        {display:block;
+         width:100%;
+        }
+    #news letter form input[type="email"] 
+    {width:100%;
+    margin-bottom :5px;
+    
+    } 
+    }
